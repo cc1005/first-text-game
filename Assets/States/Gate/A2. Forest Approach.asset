@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4612e548346dc5944889f82bb3d77170, type: 3}
+  m_Name: A2. Forest Approach
+  m_EditorClassIdentifier: 
+  storyText: 'You creep into the trees. As you move closer to the glow, you begin
+    to see glimpses of a large concrete structure through the trees. It is a large
+    wall, around 12 feet high, stretching from one side of the valley to the other.
+
+
+    You
+    arrive at the wall. You feel anxious of being spotted, but you know you are still
+    covered by the trees. There is a grate in front of you. Do you want to try and
+    pry it open to get through?
+
+
+    1: Yes.
+
+    2: No. '
+  nextStates:
+  - {fileID: 11400000, guid: cf74a8702ae45be438c2c32375e0dc40, type: 2}
+  - {fileID: 11400000, guid: cf74a8702ae45be438c2c32375e0dc40, type: 2}

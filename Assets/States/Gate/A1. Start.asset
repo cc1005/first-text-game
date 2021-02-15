@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4612e548346dc5944889f82bb3d77170, type: 3}
+  m_Name: A1. Start
+  m_EditorClassIdentifier: 
+  storyText: "You have stopped at the crest of a slight hill. \r\nA few hundred metres
+    in front of you there is a glow illuminating the hills on either side of the
+    valley, punctuating the dark woods that rise on either side of the road. \r\nIf
+    you hold your breath, you think you can hear a distant humming coming from the
+    location of the lights. \r\n\r\nDo you:\r\n1. Move into the forest at the side
+    of the road so you can try and approach unseen.\r\n2. Continue on the road for
+    another hundred metres to see if you can see what is making the glow.\r\n3. Turn
+    back the way you came. "
+  nextStates:
+  - {fileID: 11400000, guid: 8403d256ac9df9d44a7b6ac37b17771b, type: 2}
+  - {fileID: 0}

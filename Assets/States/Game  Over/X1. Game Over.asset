@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4612e548346dc5944889f82bb3d77170, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: "And it's over. \n\nTry again?\n1: Yes.\n2: No."
+  nextStates:
+  - {fileID: 11400000, guid: a110ee4c5d0371847afcec1cfc726bf4, type: 2}
+  - {fileID: 11400000, guid: 2067551aafeae714f8b33a4c6a9cb553, type: 2}
